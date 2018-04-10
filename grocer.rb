@@ -6,7 +6,7 @@ def consolidate_cart(cart)
   cart.each do |items|
     items.each do |name, attributes|
       
-      consolidated[name][:price] = attributes[:price]
+      consolidated[name][:price] = 3
       binding.pry
     end
     
