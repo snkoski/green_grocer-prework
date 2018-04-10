@@ -4,7 +4,9 @@ def consolidate_cart(cart)
   consolidated = {}
   
   cart.each do |items|
-    
+    items.each do |name, attributes|
+      binding.pry
+    end
   end
  
 end
