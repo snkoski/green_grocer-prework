@@ -1,12 +1,11 @@
 require 'pry'
 
 def consolidate_cart(cart)
-
-  count = cart.each_with_object({}) do |key, value|
-     
-     binding.pry
+  consolidated = {}
+  
+  cart.each do |items|
+    binding.pry
   end
-  #binding.pry
  
 end
 
