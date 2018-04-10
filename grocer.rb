@@ -9,8 +9,9 @@ def consolidate_cart(cart)
       consolidated[name][:price] = #{attributes[:price]}
       
     end
+    binding.pry
   end
- binding.pry
+ 
 end
 
 def apply_coupons(cart, coupons)
