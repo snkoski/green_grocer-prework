@@ -10,6 +10,8 @@ def consolidate_cart(cart)
   end
  consolidated
 end
+consolidate_cart(cart)
+
 
 def apply_coupons(cart, coupons)
   # code here
