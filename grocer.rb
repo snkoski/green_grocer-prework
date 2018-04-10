@@ -7,11 +7,11 @@ def consolidate_cart(cart)
     items.each do |name, attributes|
       
       consolidated[name] = {price: attributes[:price], clearance: attributes[:clearance], count: cart.count(items)}
-      binding.pry
+      
     end
     
   end
- 
+ binding.pry
 end
 
 def apply_coupons(cart, coupons)
